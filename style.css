@@ -1,0 +1,85 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f4ef;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff914d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.menu li a:hover {
+    color: #222;
+}
+
+/* Halaman utama */
+.home {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.home h2 {
+    font-size: 28px;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+/* Konten artikel */
+.content {
+    max-width: 800px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.content h2 {
+    color: #ff6600;
+    margin-bottom: 15px;
+}
+
+.content p, .content ul {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #ff914d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
